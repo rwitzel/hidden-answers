@@ -73,7 +73,7 @@ var default_configuration = {
         var that = this;
         function toggle_answer_markup() {
             if (state_answer_markup.enriched ) {
-                this.unwrap_answer_nodes();
+                that.unwrap_answer_nodes();
             }
             else {
                 var root_element = document.getElementsByTagName("BODY")[0];
