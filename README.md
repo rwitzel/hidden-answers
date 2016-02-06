@@ -20,7 +20,7 @@ Install the [script](http://rwitzel.github.io/hidden-answers/hidden-answers.user
 
 ### Known Limitations
 
-The script does not works with
+The script does not work with
 * [Greasemonkey](http://www.greasespot.net/),
 * Google Docs,
 * files loaded from the file system.
