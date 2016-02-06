@@ -63,7 +63,7 @@ var default_configuration = {
     },
     "init": function() {
         var xpath_matches = document.evaluate('//*[text()="' + this.markers.start + '"]',
-                            document, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE);
+                            document, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null);
         var xpath_match = xpath_matches.iterateNext ();
         if (xpath_match == null) {
             return; // this page does not contain a test -> nothing to do
