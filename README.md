@@ -6,7 +6,7 @@ Works with [Greasemonkey](http://www.greasespot.net/) for Firefox and Google Doc
 
 Example:
 
-Test yourself
+# Test yourself
 
 Q. How are you?
 
@@ -17,3 +17,5 @@ Q. How are you doing?
 A. 42.
 
 End.
+
+Install the [script](http://rwitzel.github.io/hidden-answers/hidden-answers.user.js), then click on the headline to hide the answers. Then click on an answer number to make a specific answer visible.
